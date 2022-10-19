@@ -1,0 +1,12 @@
+body{
+    font-size: large;
+}
+.layout{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+h1{
+    font-style: italic;
+    color:#935f82;
+}
