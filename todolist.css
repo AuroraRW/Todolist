@@ -1,7 +1,7 @@
 
 .todoList {
     background: linear-gradient(#e66465, #9198e5);
-    padding: 30px 80px;
+    padding: 30px 30px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     margin-bottom: 50px;
@@ -12,17 +12,16 @@ select{
     outline-color: white;
 }
 input[type='text']{
-    height: 25px;
     outline-color: white;
     font-size: 16px;
 }
 .addItem{
     margin-bottom: 5px;
 }
-.addItem span{
-    font-size: 26px;
+.addItem i{
+    transform: scale(1.3);
 }
-.addItem span:hover{
+.addItem i:hover{
     cursor: pointer;
     color: white;
 }
@@ -38,15 +37,7 @@ input[type='text']{
 .todo-btns{
     margin: 10px 5px;
 }
-.todo-btns span{
-    font-size: 15px;
-    margin: 0 5px;
-    font-style: italic;
-}
-.todo-btns span:first-child {
-    margin-left: 10px;
-} 
-.todo-btns span:hover{
+.todo-btns i:hover{
     cursor: pointer;
     color:white;
 }

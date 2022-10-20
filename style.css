@@ -1,5 +1,6 @@
 body{
     font-size: large;
+    font-family: 'Josefin Sans', sans-serif;
 }
 .layout{
     display: flex;
@@ -9,4 +10,5 @@ body{
 h1{
     font-style: italic;
     color:#935f82;
+    margin-top: 30px;
 }
