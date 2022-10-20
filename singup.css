@@ -15,14 +15,10 @@ form label{
 input[type='email'],
 input[type='password'],
 input[type='text']{
-    height: 25px;
     outline-color: white;
     font-size: 16px;
 }
-.form-block{
-    display: flex;
-    justify-content:space-between;
-}
+
 input[type='radio'],
 input[type='checkbox'] {
     transform: scale(1.1);
